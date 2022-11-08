@@ -85,6 +85,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h1>Hello from V2</h1>
         <p>{!data ? "Loading..." : data}</p>
 
         <Line options={options} data={chartdata} />
